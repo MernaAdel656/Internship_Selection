@@ -1,30 +1,68 @@
-# Internship Selection Prediction Dataset
+Student-Placement-Prediction-ML
+Machine learning project for predicting student placement using classification algorithms and performance evaluation.
 
-## 📌 Project Overview
-This repository contains the **Internship Selection Prediction Dataset**, designed to predict whether a student will be selected for an internship based on various academic and professional factors. This dataset is ideal for training classification models, performing exploratory data analysis (EDA), and understanding the key drivers behind recruitment decisions.
+🚀 Project Overview
+This project aims to predict whether a student will be selected for an internship based on academic and skill-related features. The dataset was explored, cleaned, preprocessed, and evaluated using multiple machine learning classification algorithms to identify the best-performing model.
 
-## 🎯 Problem Statement
-Securing an internship is a crucial step for students transitioning into the professional world. This project aims to utilize machine learning to analyze student profiles (such as academic performance, skill sets, and project experience) and predict their likelihood of selection.
+📁 Project Structure
+dataset/: Contains the Internship_Selection_Dataset.csv file.
+Student_Placement_Prediction.ipynb: The complete notebook for analysis and modeling
+🛠 Tech Stack
+Python: Core programming language.
+Scikit-learn: For building and training machine learning models.
+Pandas & NumPy: For data manipulation and analysis.
+Matplotlib & Seaborn: For data visualization.
+📋 Features
+Exploratory Data Analysis (EDA)
+Data Cleaning and Preprocessing
+Label Encoding
+Feature Scaling
+Multiple Classification Models
+Model Comparison
+Confusion Matrix Visualization
+Performance Evaluation
+📊 Exploratory Data Analysis (EDA)
+The dataset was explored to understand its structure and quality by:
 
-## 📊 Dataset Structure & Features
-The dataset includes several features capturing the profile of applicants. Here is a breakdown of the typical attributes included:
+Checking data shape and information
+Descriptive statistics
+Handling missing values and duplicates
+Analyzing the target variable distribution
+Correlation heatmap
+Data visualization
+⚙️ Data Preprocessing
+Label Encoding for categorical features
+Train-Test Split (80% Train, 20% Test)
+Stratified sampling to preserve class distribution
+Feature Scaling using StandardScaler
+🤖 Machine Learning Models
+The following classification algorithms were implemented:
 
-*   **Student_ID:** Unique identifier for each applicant.
-*   **GPA / Academic_Score:** The cumulative grade point average of the student.
-*   **Skills_Score:** A quantified measure of the technical or soft skills possessed by the applicant.
-*   **Projects_Count:** Number of academic or personal projects completed.
-*   **Certifications:** Number of professional certifications achieved.
-*   **Experience_Level:** Previous internship or work experience (if applicable).
-*   **Status / Selected (Target Variable):** The outcome of the application (`1` for Selected, `0` for Not Selected).
+Logistic Regression
+K-Nearest Neighbors (KNN)
+Decision Tree
+Random Forest
+Support Vector Machine (SVM)
+Gaussian Naive Bayes
+📈 Evaluation Metrics
+The models were evaluated using:
 
-*Note: Please verify the exact column names with your specific CSV file version if any minor naming variations exist.*
+Accuracy
+Precision
+Recall
+F1-score
+ROC-AUC Score
+Confusion Matrix
+💻 How to Run
+Clone this repository:
+git clone https://github.com/santymorkos867-c/Student-Placement-Prediction-ML.git
+Install the required libraries:
+pip install pandas numpy scikit-learn matplotlib seaborn
+Open the Student_Placement_Prediction.ipynb notebook using Jupyter Notebook or Google Colab, then run all cells.
 
-## 🚀 Potential Use Cases
-*   **Classification Models:** Train models like Logistic Regression, Random Forest, or XGBoost to predict outcomes.
-*   **Feature Importance Analysis:** Identify which factor (e.g., GPA vs. Projects) influences selection the most.
-*   **HR Analytics:** Simulate how recruitment filtering systems operate in real-world scenarios.
 
-## 🛠️ How to Use
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+👥 Team Members
+* **Member 1 Name** - [@github_username](https://github.com/...)
+* **Asmaa Ashraf** - (https://github.com/Asmaa-13579)
+* **Santy Morkos** - (https://github.com/santymorkos867-c)
+* **Merna Adel** - (https://github.com/MernaAdel656)
