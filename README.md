@@ -75,9 +75,10 @@ The models were rigorously evaluated using:
    ```bash
    git clone [https://github.com/santymorkos867-c/Student-Placement-Prediction-ML.git](https://github.com/santymorkos867-c/Student-Placement-Prediction-ML.git)
 
+---
 
 👥 Team Members
-* **Member 1 Name** - https://github.com/sfdjd122344-blip
+* **Ghada Mohamed** - https://github.com/sfdjd122344-blip
 * **Asmaa Ashraf** - https://github.com/Asmaa-13579
 * **Santy Morkos** - https://github.com/santymorkos867-c
 * **Merna Adel** - https://github.com/MernaAdel656
