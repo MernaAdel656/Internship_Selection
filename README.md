@@ -66,7 +66,7 @@ The models were evaluated using:
 1. Clone this repository:
 
 bash
-git clone https://github.com/santymorkos867-c/Student-Placement-Prediction-ML.git
+git clone https://github.com/MernaAdel656/Internship_Selection
 
 
 2. Install the required libraries:
